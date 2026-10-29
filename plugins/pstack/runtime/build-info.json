@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "1ba91fc25c0977741dd0e267849e6234b037ed0a",
+  "upstreamVersion": "0.15.36",
+  "adapterVersion": "0.15.36-minimax.1",
+  "adapterSha256": "5841c43dc530c841c0e2910a4401d771758e87d649f4efa750b10b5599a306fa"
+}

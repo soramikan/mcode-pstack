@@ -1,0 +1,4 @@
+#!/usr/bin/env bun
+// Run with bun explicitly; this launcher does not rely on executable bits.
+const { main } = await import("./cli.js");
+process.exitCode = await main(process.argv.slice(2));

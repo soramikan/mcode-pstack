@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "pstack",
+  "displayName": "pstack for MiniMax Code",
+  "version": "0.15.36-minimax.1",
+  "description": "An independent MiniMax Code port of pstack: rigorous investigation, design, implementation and evidence-driven verification.",
+  "author": "Lauren Tan (upstream pstack); mcode-pstack contributors (MiniMax Code adapter)",
+  "icon": "icon.png",
+  "category": "Code",
+  "exampleQueries": [
+    "/pstack:poteto-mode この不具合を調査し、テストで確認して修正してください",
+    "/pstack:arena 複数の設計案を独立に比較してください",
+    "/pstack:setup-pstack モデルの継承と役割別設定を確認したい"
+  ],
+  "apps": [],
+  "mcpServers": [],
+  "skills": []
+}

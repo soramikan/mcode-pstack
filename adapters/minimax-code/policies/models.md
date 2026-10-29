@@ -1,0 +1,5 @@
+## Role model policy
+
+Read only the dedicated pstack configuration through `runtime/config.mjs`. Defaults are inherit-parent, unset effort, and maxWorkers 2. Project choices live in `.pstack/config.json`; user choices require an explicitly supplied dataDir and live in `<dataDir>/pstack/config.json`. Do not read or change general host configuration, AGENTS.md, or global rules for setup.
+
+A role may use only a user-confirmed exact source-qualified `provider/model[#variant]` key and separately confirmed effort. Do not alter model-name suffixes (max/xhigh/high/fast), infer availability from an error, pick a neighboring model, or silently fall back after rejection. Stop that role and report the unavailable selection to the parent. Family checks require user-approved family metadata for both parent and reviewer, never a name prefix. Unknown family means the different-family check did not run. Multiple seats on one model are independent attempts, not a multi-model panel. Explicitly label missing model diversity.

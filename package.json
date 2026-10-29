@@ -1,0 +1,30 @@
+{
+  "name": "mcode-pstack",
+  "version": "0.15.36-minimax.1",
+  "private": true,
+  "type": "module",
+  "description": "A reproducible MiniMax Code port of Cursor pstack",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "sync:upstream": "node scripts/sync-upstream.mjs",
+    "generate": "node scripts/generate.mjs",
+    "check:generated": "node scripts/generate.mjs --check",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/unit/*.test.mjs",
+    "test:upstream": "node scripts/test-upstream.mjs",
+    "test:host": "node scripts/test-host.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6",
+    "ajv": "8.20.0",
+    "bun-types": "1.4.2",
+    "commander": "14.0.0",
+    "fast-check": "4.5.3",
+    "typescript": "5.9.3",
+    "yaml": "2.9.1"
+  }
+}

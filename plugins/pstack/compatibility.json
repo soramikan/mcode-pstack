@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "1ba91fc25c0977741dd0e267849e6234b037ed0a",
+  "items": [
+    {
+      "id": "skill:architect",
+      "kind": "skill",
+      "source": "skills/architect/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:arena",
+      "kind": "skill",
+      "source": "skills/arena/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:automate-me",
+      "kind": "skill",
+      "source": "skills/automate-me/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:benchmark-checklist",
+      "kind": "skill",
+      "source": "skills/benchmark-checklist/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:blast-radius",
+      "kind": "skill",
+      "source": "skills/blast-radius/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:bro",
+      "kind": "skill",
+      "source": "skills/bro/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:correct",
+      "kind": "skill",
+      "source": "skills/correct/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:create-formal-verification-skill",
+      "kind": "skill",
+      "source": "skills/create-formal-verification-skill/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:create-verification-skill",
+      "kind": "skill",
+      "source": "skills/create-verification-skill/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:figure-it-out",
+      "kind": "skill",
+      "source": "skills/figure-it-out/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:how",
+      "kind": "skill",
+      "source": "skills/how/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:in-your-own-words",
+      "kind": "skill",
+      "source": "skills/in-your-own-words/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:interrogate",
+      "kind": "skill",
+      "source": "skills/interrogate/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:ketchup",
+      "kind": "skill",
+      "source": "skills/ketchup/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:ketchup-video",
+      "kind": "skill",
+      "source": "skills/ketchup-video/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:maintain-formal-verification-skill",
+      "kind": "skill",
+      "source": "skills/maintain-formal-verification-skill/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:maintain-verification-skill",
+      "kind": "skill",
+      "source": "skills/maintain-verification-skill/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:make-bot-ui",
+      "kind": "skill",
+      "source": "skills/make-bot-ui/SKILL.md",
+      "status": "unsupported",
+      "constraints": [
+        "Cursor/Grok webhook facilities are not implemented; reference-only gate."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:no-comments",
+      "kind": "skill",
+      "source": "skills/no-comments/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:poteto-help",
+      "kind": "skill",
+      "source": "skills/poteto-help/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:poteto-mode",
+      "kind": "skill",
+      "source": "skills/poteto-mode/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-attack-the-premise",
+      "kind": "skill",
+      "source": "skills/principle-attack-the-premise/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-boundary-discipline",
+      "kind": "skill",
+      "source": "skills/principle-boundary-discipline/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-build-the-lever",
+      "kind": "skill",
+      "source": "skills/principle-build-the-lever/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-encode-lessons-in-structure",
+      "kind": "skill",
+      "source": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-exhaust-the-design-space",
+      "kind": "skill",
+      "source": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-experience-first",
+      "kind": "skill",
+      "source": "skills/principle-experience-first/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-explain-the-number",
+      "kind": "skill",
+      "source": "skills/principle-explain-the-number/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-fix-root-causes",
+      "kind": "skill",
+      "source": "skills/principle-fix-root-causes/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-foundational-thinking",
+      "kind": "skill",
+      "source": "skills/principle-foundational-thinking/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-guard-the-context-window",
+      "kind": "skill",
+      "source": "skills/principle-guard-the-context-window/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-laziness-protocol",
+      "kind": "skill",
+      "source": "skills/principle-laziness-protocol/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-make-operations-idempotent",
+      "kind": "skill",
+      "source": "skills/principle-make-operations-idempotent/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-migrate-callers-then-delete-legacy-apis",
+      "kind": "skill",
+      "source": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-minimize-reader-load",
+      "kind": "skill",
+      "source": "skills/principle-minimize-reader-load/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-model-the-domain",
+      "kind": "skill",
+      "source": "skills/principle-model-the-domain/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-never-block-on-the-human",
+      "kind": "skill",
+      "source": "skills/principle-never-block-on-the-human/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-outcome-oriented-execution",
+      "kind": "skill",
+      "source": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-prove-it-works",
+      "kind": "skill",
+      "source": "skills/principle-prove-it-works/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-redesign-from-first-principles",
+      "kind": "skill",
+      "source": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-separate-before-serializing-shared-state",
+      "kind": "skill",
+      "source": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-sequence-verifiable-units",
+      "kind": "skill",
+      "source": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-subtract-before-you-add",
+      "kind": "skill",
+      "source": "skills/principle-subtract-before-you-add/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-test-behavior-not-implementation",
+      "kind": "skill",
+      "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:principle-type-system-discipline",
+      "kind": "skill",
+      "source": "skills/principle-type-system-discipline/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:recall",
+      "kind": "skill",
+      "source": "skills/recall/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:reflect",
+      "kind": "skill",
+      "source": "skills/reflect/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:setup-pstack",
+      "kind": "skill",
+      "source": "skills/setup-pstack/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:sharpen",
+      "kind": "skill",
+      "source": "skills/sharpen/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:show-me-your-work",
+      "kind": "skill",
+      "source": "skills/show-me-your-work/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:statechart",
+      "kind": "skill",
+      "source": "skills/statechart/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:swarm",
+      "kind": "skill",
+      "source": "skills/swarm/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:tdd",
+      "kind": "skill",
+      "source": "skills/tdd/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:teach",
+      "kind": "skill",
+      "source": "skills/teach/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:technical-writing",
+      "kind": "skill",
+      "source": "skills/technical-writing/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:typescript-best-practices",
+      "kind": "skill",
+      "source": "skills/typescript-best-practices/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:unslop",
+      "kind": "skill",
+      "source": "skills/unslop/SKILL.md",
+      "status": "supported",
+      "constraints": [
+        "Host approval, namespace, and bounded execution policies apply."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "skill:why",
+      "kind": "skill",
+      "source": "skills/why/SKILL.md",
+      "status": "limited",
+      "constraints": [
+        "Conditional on exposed host capabilities, approved role metadata, and required verification drivers; no live host acceptance is claimed."
+      ],
+      "tests": [
+        "prompts.inventory",
+        "prompts.frontmatter",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:authoring-a-skill",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:autonomous-run",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/autonomous-run.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:autopilot-full",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:autopilot-stack",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:babysit",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/babysit.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:bug-fix",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/bug-fix.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:eval",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/eval.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:feature",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/feature.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:hillclimb",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/hillclimb.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:investigation",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/investigation.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:multi-phase-plan",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:opening-a-pr",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/opening-a-pr.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:orchestrate",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/orchestrate.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:pause-safely",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/pause-safely.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:perf-issue",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/perf-issue.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:prototype",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/prototype.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:refactoring",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/refactoring.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:runtime-forensics",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/runtime-forensics.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:session-pickup",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/session-pickup.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:shipping",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/shipping.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:trace-forensics",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/trace-forensics.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:visual-parity",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/visual-parity.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "playbook:worktree-cleanup",
+      "kind": "playbook",
+      "source": "skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "status": "limited",
+      "constraints": [
+        "Parent-owned bounded execution; native tasks share workspace; required verification gaps block shipping and all external/git mutations need authorization."
+      ],
+      "tests": [
+        "prompts.playbooks",
+        "prompts.boundaries"
+      ]
+    },
+    {
+      "id": "agent:poteto-agent",
+      "kind": "agent",
+      "source": "agents/poteto-agent.md",
+      "status": "limited",
+      "constraints": [
+        "No nested delegation, parent todo tools, or user questions; explicit path ownership and host approvals apply."
+      ],
+      "tests": [
+        "prompts.agents"
+      ]
+    },
+    {
+      "id": "agent:comment-sicko",
+      "kind": "agent",
+      "source": "agents/comment-sicko.md",
+      "status": "limited",
+      "constraints": [
+        "No nested delegation, parent todo tools, or user questions; explicit path ownership and host approvals apply."
+      ],
+      "tests": [
+        "prompts.agents"
+      ]
+    },
+    {
+      "id": "automation:benny",
+      "kind": "automation",
+      "source": "automations/benny/README.md",
+      "status": "unsupported",
+      "constraints": [
+        "Cursor Slack/automation facilities are not implemented; no automatic setup or credential handoff."
+      ],
+      "tests": [
+        "prompts.inventory"
+      ]
+    }
+  ]
+}

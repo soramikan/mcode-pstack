@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "name": "pstack",
+  "version": "1.0.0",
+  "description": "Synthetic offline installer fixture",
+  "author": "Fixture",
+  "icon": "assets/icon.png",
+  "category": "Code",
+  "exampleQueries": [],
+  "apps": [],
+  "mcpServers": [],
+  "skills": ["skills/demo/SKILL.md"]
+}
